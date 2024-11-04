@@ -78,3 +78,60 @@ if __name__ == "__main__":
 
     compound_interest = calculate_compound_interest(principal, rate, time)
     print("Compound Interest (compounded annually):", compound_interest)  
+
+    git add .
+    git comm - m "Module 2 Assignment 2"
+    git push -u origin main
+
+git init
+git add .
+git commit -m "Homework 3"
+
+git remove add origin
+github-repo-link
+git branch -M main
+git push -u origin main
+
+number = input("Enter a number:")
+
+if number > 0:
+	print("The number is positive.")
+elif number = 0:
+	print("The number is zero.")
+else number < 0:
+	print("The number is negative.")
+
+	num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+
+# Find the largest number
+if num1 >= num2 and num1 >= num3:
+    largest = num1
+elif num2 >= num1 and num2 >= num3:
+    largest = num2
+else:
+    largest = num3
+
+# Print the largest number
+print("The largest number is:", largest)
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+smallest = num1if (num2 < num1) and (num2 < num3):
+    smallest = num2elif (num3 < num1):
+    smallest = num3print("The smallest number is", smallest)
+
+#User enters the year
+year = int(input("Enter Year: "))
+
+#Leap Year Check
+if year % 4 == 0 and year % 100 != 0:
+	print(year, "is a Leap Year")
+elif year % 100 == 0:
+	print(year, "is not a Leap Year")
+elif year % 400 ==0:
+	print(year, "is a Leap Year")
+else:
+	print(year, "is not a Leap Year")
