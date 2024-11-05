@@ -1,0 +1,221 @@
+weather = "sunny"
+if weather == "sunny":
+    print("Wear sunglasses!")
+else:
+    print("Take an umbrella!")
+
+    pi_value = 3.14
+    user_age = 25
+    user_location = "New York"
+    MAXLIMIT = 1000
+
+    def calculate_total_price(items):
+    """Calculates the total price of a list of grocery items."""
+
+    total = 0
+    for item in items:
+        name, price, quantity = item
+        total += price * quantity
+
+    return total
+
+def apply_discount(total_price, discount_percentage):
+    """Applies a discount to the total price."""
+
+    discount_amount = total_price * (discount_percentage / 100)
+    return total_price - discount_amount
+
+if __name__ == "__main__":
+    grocery_items = [
+        ("Apples", 1.50, 2),
+        ("Milk", 2.99, 1),
+        ("Bread", 2.25, 1),
+        ("Eggs", 3.50, 1),
+    ]
+
+    total_price = calculate_total_price(grocery_items)
+    print("Total price before discount:", total_price)
+
+    discount = 10  # 10% discount
+    final_price = apply_discount(total_price, discount)
+    print("Final price after discount:", final_price)
+
+  def calculate_simple_interest(principal, rate, time):
+    """Calculates simple interest.
+
+    Args:
+        principal (float): The initial amount of money.
+        rate (float): The interest rate per year (as a decimal, e.g., 0.05 for 5%).
+        time (float): The time period in years.
+
+    Returns:
+        float: The simple interest.
+    """
+    return principal * rate * time
+
+def calculate_compound_interest(principal, rate, time, n=1):
+    """Calculates compound interest.
+
+    Args:
+        principal (float): The initial amount of money.
+        rate (float): The interest rate per year (as a decimal, e.g., 0.05 for 5%).
+        time (float): The time period in years.
+        n (int): The number of times interest is compounded per year.
+
+    Returns:
+        float: The compound interest.
+    """
+    amount = principal * (1 + rate / n) ** (n * time)
+    return amount - principal
+
+if __name__ == "__main__":
+    principal = float(input("Enter the principal amount: "))
+    rate = float(input("Enter the interest rate (as a decimal): "))
+    time = float(input("Enter the time period (in years): "))
+
+    simple_interest = calculate_simple_interest(principal, rate, time)
+    print("Simple Interest:", simple_interest)
+
+    compound_interest = calculate_compound_interest(principal, rate, time)
+    print("Compound Interest (compounded annually):", compound_interest)  
+
+    git add .
+    git comm - m "Module 2 Assignment 2"
+    git push -u origin main
+
+git init
+git add .
+git commit -m "Homework 3"
+
+git remove add origin
+github-repo-link
+git branch -M main
+git push -u origin main
+
+number = input("Enter a number:")
+
+if number > 0:
+	print("The number is positive.")
+elif number = 0:
+	print("The number is zero.")
+else number < 0:
+	print("The number is negative.")
+
+	num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+
+# Find the largest number
+if num1 >= num2 and num1 >= num3:
+    largest = num1
+elif num2 >= num1 and num2 >= num3:
+    largest = num2
+else:
+    largest = num3
+
+# Print the largest number
+print("The largest number is:", largest)
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+smallest = num1if (num2 < num1) and (num2 < num3):
+    smallest = num2elif (num3 < num1):
+    smallest = num3print("The smallest number is", smallest)
+
+#User enters the year
+year = int(input("Enter Year: "))
+
+#Leap Year Check
+if year % 4 == 0 and year % 100 != 0:
+	print(year, "is a Leap Year")
+elif year % 100 == 0:
+	print(year, "is not a Leap Year")
+elif year % 400 ==0:
+	print(year, "is a Leap Year")
+else:
+	print(year, "is not a Leap Year")
+     
+    #Nested Decisions: The Adventure Game: Buggy Code Correction
+place = input("Choose a place: forest or cave?")
+
+if place = "forest":
+    action = input("climb a tree or cross a river?")
+    if action = "climb a tree":
+        print("You found a bird's nest!")
+    elif action = "cross a river":
+        print("You found a boat!")
+else place = "cave":
+    print("You find a hidden treasure!")
+
+#Setting The Scene
+place = input("Choose a place: forest or cave?")
+
+if place = "forest":
+    action = input("climb a tree or cross a river?")
+    if action = "climb a tree":
+        print("You found a bird's nest!")
+    elif action = "cross a river":
+        print("You found a boat!")
+else place = "cave":
+    action = input("light a torch or proceed in the dark?")
+    if action = "light a torch"
+        print ("Make way through cave.")
+    elif action = "proceed in the dark"
+        print ("Trip and fall into bat guano.")
+
+#Default Path
+place = input("Choose a place: forest or cave?")
+
+if place = "forest":
+    action = input("climb a tree or cross a river?")
+    if action = "climb a tree":
+        print("You found a bird's nest!")
+    elif action = "cross a river":
+        print("You found a boat!")
+elif place = "cave":
+    action = input("light a torch or proceed in the dark?")
+    if action = "light a torch"
+        print ("Make way through cave.")
+    elif action = "proceed in the dark"
+        print ("Trip and fall into bat guano.")
+    else = "invalid"
+pass  # Do nothing
+
+#Quick Decisions: The Event Planner: Code Correction
+attendees = input("Enter number of attendees:")
+venue = "large hall" 
+if attendees > 100 
+else "conference room"
+    print(venue)
+
+#Venue Selection
+attendees = input("Enter number of attendees:")
+venue = "large hall" 
+if attendees > 100 
+else "conference room"
+    print(venue)
+equipment = "audio system"
+if attendees > 100
+else "projector"
+    print(equipment)
+
+#Catering Choices
+attendees = input("Enter number of attendees:")
+venue = "large hall" 
+if attendees > 100 
+else "conference room"
+    print(venue)
+equipment = "audio system"
+if attendees > 100
+else "projector"
+    print(equipment)
+vegetarianoption = input("Vegetarian or not.")
+option = "Veggie Delight Caterers"
+if vegetarianoption = "Yes."
+else "Gourmet Meal Caterers"
+    print(vegetarianoption)
+
+git add .
+git commit -m "Module 2 Lesson 2 Nested If"
+git push origin main
